@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^dish/([0-9]+)$ view.php?id=$1
